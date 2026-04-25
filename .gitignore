@@ -45,7 +45,7 @@ tmp
 .pnpm-store
 .yarn-cache
 .git
-.github
-.dockerignore
-Dockerfile
-vite-nginx.conf
+# .github
+# .dockerignore
+# Dockerfile
+# vite-nginx.conf
