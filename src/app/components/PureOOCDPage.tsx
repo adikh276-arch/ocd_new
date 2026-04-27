@@ -349,7 +349,7 @@ export function PureOOCDPage() {
                     key={tool.id}
                     onClick={() => {
                       if (tool.url) {
-                        window.open(tool.url, "_blank");
+                        window.location.href = tool.url;
                       }
                     }}
                     className="border border-[#E5E7EB] rounded-xl p-4 hover:shadow-md transition-all"

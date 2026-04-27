@@ -184,7 +184,7 @@ export function OCDSelfCare() {
                           if (tool.url.startsWith('/')) {
                             navigate(tool.url);
                           } else {
-                            window.open(tool.url, '_blank');
+                            window.location.href = tool.url;
                           }
                         }
                       }}
@@ -221,11 +221,19 @@ export function OCDSelfCare() {
                       whileHover={{ y: -2 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => {
+                        if (topic.id === 'meditation') {
+                          if (window.parent !== window) {
+                            window.parent.postMessage({ action: 'ocd' }, 'https://web.mantracare.com');
+                          } else {
+                            window.location.href = 'https://web.mantracare.com';
+                          }
+                          return;
+                        }
                         if (topic.url) {
                           if (topic.url.startsWith('/')) {
                             navigate(topic.url);
                           } else {
-                            window.open(topic.url, '_blank');
+                            window.location.href = topic.url;
                           }
                         }
                       }}
@@ -270,7 +278,7 @@ export function OCDSelfCare() {
                           if (guide.url.startsWith('/')) {
                             navigate(guide.url);
                           } else {
-                            window.open(guide.url, '_blank');
+                            window.location.href = guide.url;
                           }
                         }
                       }}

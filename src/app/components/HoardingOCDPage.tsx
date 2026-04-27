@@ -335,7 +335,7 @@ export function HoardingOCDPage() {
                   className="bg-white border border-[#E5E7EB] rounded-2xl p-6 flex flex-col items-center gap-3 hover:shadow-lg transition-all"
                   onClick={() => {
                     if (tool.url) {
-                      window.open(tool.url, "_blank");
+                      window.location.href = tool.url;
                     }
                   }}
                 >
