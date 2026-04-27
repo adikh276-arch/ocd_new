@@ -334,7 +334,7 @@ export function OCDPage() {
               {/* Mobile: 3×2 grid | Desktop: 6-column single row */}
               <div className="grid grid-cols-3 md:grid-cols-6 gap-4 md:gap-6">
                 {[
-                  { label: "Daily Journal", Icon: FileText, grad: "#F39C12", link: "https://web.mantracare.com/app/journal", external: true },
+                  { label: "Daily Journal", Icon: FileText, grad: "#F39C12", link: "https://platform.mantracare.com/ocd-tips", external: true },
                   { label: "Journal", Icon: BookOpen, grad: "#3498DB", link: "/", external: false },
                   { label: "OCD in Daily Life", Icon: Calendar, grad: "#FF9F43", link: "https://web.mantracare.com/app/daily_life", external: true },
                   { label: "Mood Tracker", Icon: Heart, grad: "#E74C3C", link: "https://web.mantracare.com/app/mood_tracker", external: true },
