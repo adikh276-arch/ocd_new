@@ -735,6 +735,7 @@ export function Dashboard() {
                 <div className="pt-2">
                   <motion.a
                     href="https://mantrafoundations.org/donate/"
+                    target="_self"
                     whileHover={{ scale: 1.02, y: -2 }}
                     whileTap={{ scale: 0.98 }}
                     className="inline-flex items-center gap-2 bg-gradient-to-r from-[#00c0ff] to-[#0EA5E9] text-white px-8 py-3.5 rounded-xl font-semibold text-sm shadow-lg hover:shadow-xl transition-all"
@@ -841,6 +842,7 @@ export function Dashboard() {
               <div className="flex items-center gap-2 w-full md:w-auto">
                 <a
                   href="https://play.google.com"
+                  target="_self"
                   className="flex-1 md:flex-none"
                 >
                   <img 
@@ -851,6 +853,7 @@ export function Dashboard() {
                 </a>
                 <a
                   href="https://apps.apple.com"
+                  target="_self"
                   className="flex-1 md:flex-none"
                 >
                   <img 
@@ -872,11 +875,11 @@ export function Dashboard() {
               <div className="flex items-center gap-2 md:gap-4">
                 <span>© 2026 Mantra</span>
                 <span className="hidden md:inline">•</span>
-                <a href="https://content.mantracare.com/privacy-policy/" className="hover:text-[#020817] transition-colors text-[12px]">Privacy Policy</a>
+                <a target="_self" href="https://content.mantracare.com/privacy-policy/" className="hover:text-[#020817] transition-colors text-[12px]">Privacy Policy</a>
                 <span className="hidden md:inline">•</span>
-                <a href="https://content.mantracare.com/terms-conditions-1/" className="hover:text-[#020817] transition-colors text-[12px]">Terms of Service</a>
+                <a target="_self" href="https://content.mantracare.com/terms-conditions-1/" className="hover:text-[#020817] transition-colors text-[12px]">Terms of Service</a>
                 <span className="hidden md:inline">•</span>
-                <a href="https://content.mantracare.com/refund-policy/" className="hover:text-[#020817] transition-colors text-[12px]">Refund Policy</a>
+                <a target="_self" href="https://content.mantracare.com/refund-policy/" className="hover:text-[#020817] transition-colors text-[12px]">Refund Policy</a>
               </div>
 
               {/* Right side - Language selector */}

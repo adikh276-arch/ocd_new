@@ -57,6 +57,7 @@ export function MobileAppModal({ isOpen, onClose }: MobileAppModalProps) {
               <div className="flex flex-row gap-3 w-full">
                 <motion.a
                   href="https://play.google.com"
+                  target="_self"
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   className="flex-1 flex items-center justify-center gap-3 bg-black text-white rounded-lg px-6 py-3 hover:bg-gray-900 transition-colors"
@@ -72,6 +73,7 @@ export function MobileAppModal({ isOpen, onClose }: MobileAppModalProps) {
                 
                 <motion.a
                   href="https://apps.apple.com"
+                  target="_self"
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   className="flex-1 flex items-center justify-center gap-3 bg-black text-white rounded-lg px-6 py-3 hover:bg-gray-900 transition-colors"

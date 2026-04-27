@@ -132,7 +132,9 @@ export function OCDPage() {
               <div className="space-y-[10px]">
                 {/* Talk to a Therapist */}
                 <motion.button
-                  onClick={() => {}}
+                  onClick={() => {
+                    window.location.href = 'https://web.mantracare.com/expert-support';
+                  }}
                   whileHover={{ scale: 1.02, y: -2 }}
                   whileTap={{ scale: 0.98 }}
                   className="w-full relative overflow-hidden bg-gradient-to-r from-[#0EA5E9] to-[#06B6D4] border-2 border-transparent rounded-2xl px-5 py-5 flex items-center justify-between shadow-lg hover:shadow-2xl transition-all duration-300 group cursor-default"
@@ -332,7 +334,7 @@ export function OCDPage() {
               {/* Mobile: 3×2 grid | Desktop: 6-column single row */}
               <div className="grid grid-cols-3 md:grid-cols-6 gap-4 md:gap-6">
                 {[
-                  { label: "Log OCD Moments", Icon: FileText, grad: "#F39C12", link: "https://web.mantracare.com/app/ocd_moments", external: true },
+                  { label: "Daily Journal", Icon: FileText, grad: "#F39C12", link: "https://web.mantracare.com/app/journal", external: true },
                   { label: "Journal", Icon: BookOpen, grad: "#3498DB", link: "/", external: false },
                   { label: "OCD in Daily Life", Icon: Calendar, grad: "#FF9F43", link: "https://web.mantracare.com/app/daily_life", external: true },
                   { label: "Mood Tracker", Icon: Heart, grad: "#E74C3C", link: "https://web.mantracare.com/app/mood_tracker", external: true },
