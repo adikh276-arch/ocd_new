@@ -89,12 +89,12 @@ const mindfulnessCards: MindfulnessCard[] = [
 ];
 
 const selfCareToolCards: TopicCard[] = [
-  { id: "daily-journal", icon: Clock, label: "Daily Journal", bgColor: "linear-gradient(135deg, #a855f7 0%, #9333ea 100%)", iconColor: "#A855F7", url: "https://platform.mantracare.com/ocd-tips" },
+  { id: "ocd-tips-tracker", icon: Clock, label: "OCD Tips", bgColor: "linear-gradient(135deg, #a855f7 0%, #9333ea 100%)", iconColor: "#A855F7", url: "https://platform.mantracare.com/ocd-tips" },
   { id: "ocd-daily-life", icon: Calendar, label: "OCD In Daily Life", bgColor: "linear-gradient(135deg, #06b6d4 0%, #0891b2 100%)", iconColor: "#06B6D4", url: "https://web.mantracare.com/app/daily_life" },
   { id: "mood-tracker", icon: Smile, label: "Mood Tracker", bgColor: "linear-gradient(135deg, #f59e0b 0%, #d97706 100%)", iconColor: "#F59E0B", url: "https://web.mantracare.com/app/mood_tracker" },
   { id: "gratitude-tracker", icon: Star, label: "Gratitude Tracker", bgColor: "linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%)", iconColor: "#FBBF24", url: "https://web.mantracare.com/app/gratitude_logs" },
   { id: "vibe-tracker", icon: Sparkles, label: "Vibe Tracker", bgColor: "linear-gradient(135deg, #ec4899 0%, #db2777 100%)", iconColor: "#EC4899", url: "https://web.mantracare.com/app/vibe_tracker" },
-  { id: "recovery-progress", icon: TrendingUp, label: "Recovery Progress", bgColor: "linear-gradient(135deg, #10b981 0%, #059669 100%)", iconColor: "#10B981", url: "https://platform.mantracare.com/ocd_management" },
+  { id: "ocd-management", icon: TrendingUp, label: "OCD Management", bgColor: "linear-gradient(135deg, #10b981 0%, #059669 100%)", iconColor: "#10B981", url: "https://platform.mantracare.com/ocd_management" },
 ];
 
 const wellnessGuideCards: TopicCard[] = [
