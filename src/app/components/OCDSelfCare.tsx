@@ -76,7 +76,7 @@ const topicCards: TopicCard[] = [
   { id: "fear-ladder", icon: TrendingUp, label: "Fear Ladder", bgColor: "#F3EEFF", iconColor: "#9D6CFF", url: "https://web.mantracare.com/app/fear_ladder" },
   { id: "self-compassion", icon: Heart, label: "Self Compassion", bgColor: "#FFEBF0", iconColor: "#FF6B9D", url: "https://platform.mantracare.com/self_compassion" },
   { id: "ocd-cycle", icon: RefreshCw, label: "OCD Cycle", bgColor: "#E0F7FA", iconColor: "#00BCD4", url: "https://platform.mantracare.com/ocd_cycle" },
-  { id: "reframing-thoughts", icon: Brain, label: "Reframing Thoughts", bgColor: "#E8F8F5", iconColor: "#34D399", url: "https://platform.mantracare.com/reframing-thoughts" },
+  { id: "reframing-thoughts", icon: Brain, label: "Reframing Thoughts", bgColor: "#E8F8F5", iconColor: "#34D399", url: "https://web.mantracare.com/app/reframe_ocd_thoughts" },
   { id: "success-stories", icon: Award, label: "Success Stories", bgColor: "#F7FEE7", iconColor: "#84CC16", url: "https://platform.mantracare.com/ocd_success_stories" },
   { id: "meditation", icon: BookOpen, label: "Meditation", bgColor: "#EDE9FE", iconColor: "#8B5CF6", url: "/service/meditation" },
 ];
